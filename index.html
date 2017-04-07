@@ -1,0 +1,1381 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+    <link href="style.css" rel="shortcut icon">
+    <link rel="stylesheet" href="second.css">
+<link rel="stylesheet" type="text/css" href="">
+    <style>
+        html {
+            background-image: none;
+            background-color: white;
+        }
+
+        .cupcake-inner .cupcake-heading {
+            display: none;
+        }
+
+        .cupcake-inner .cupcake-body .details-last-step {
+            border: none;
+            opacity: 1;
+        }
+
+        .cupcake-inner .how-works {
+            background-image: none;
+            border: none;
+        }
+
+        .cupcake-inner .how-works .build {
+            background-image: url("/msse_vendors/images/selfservice_merchant/dealbuilder-icon-1.svg") !important;
+        }
+
+        .cupcake-inner .how-works .enjoy {
+            background-image: url("/msse_vendors/images/selfservice_merchant/dealbuilder-icon-2.svg") !important;
+        }
+
+        .cupcake-inner .how-works .getpaid {
+            background-image: url("/msse_vendors/images/selfservice_merchant/dealbuilder-icon-3.svg") !important;
+        }
+
+        body footer a.groupon-works-logo:before {
+            background-image: url("/msse_vendors/images/selfservice_merchant/groupon_merchant_logo_horizontal_rgb.svg") !important;
+            width: 350px;
+            background-size: cover;
+            bottom: 10px;
+            position: relative;
+            height: 50px;
+        }
+
+        #cont-build {
+            background-image: url("/msse_vendors/images/deal_builder/grid_paper_soft.png");
+            background-color: #f2f2f2;
+        }
+
+    </style>
+
+    <title>Groupon</title>
+
+    <style type="text/css">
+
+        #lleo_dialog,
+        #lleo_dialog * {
+            color: #000 !important;
+            font: normal 13px Arial, Helvetica !important;
+            line-height: 15px !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            background: none !important;
+            border: none 0 !important;
+            position: static !important;
+            vertical-align: baseline !important;
+            overflow: visible !important;
+            width: auto !important;
+            height: auto !important;
+            max-width: none !important;
+            max-height: none !important;
+            float: none !important;
+            visibility: visible !important;
+            text-align: left !important;
+            text-transform: none !important;
+            border-collapse: separate !important;
+            border-spacing: 2px !important;
+            box-sizing: content-box !important;
+            box-shadow: none !important;
+            opacity: 1 !important;
+            text-shadow: none !important;
+            letter-spacing: normal !important;
+            -webkit-filter: none !important;
+            -moz-filter: none !important;
+            filter: none !important;
+        }
+
+        #lleo_dialog *:before,
+        #lleo_dialog *:after {
+            content: '';
+        }
+
+        #lleo_dialog iframe {
+            height: 0 !important;
+            width: 0 !important;
+        }
+
+        #lleo_dialog {
+            position: absolute !important;
+            background: #fff !important;
+            border: solid 1px #ccc !important;
+            padding: 7px 0 0 !important;
+            left: -999px;
+            top: -999px;
+            width: 440px !important;
+            overflow: hidden;
+            display: block !important;
+            z-index: 999999999 !important;
+            box-shadow: 8px 16px 30px rgba(0, 0, 0, 0.16) !important;
+            border-radius: 3px !important;
+            opacity: 0 !important;
+            -webkit-transform: translateY(15px);
+            -moz-transform: translateY(15px);
+            -ms-transform: translateY(15px);
+            -o-transform: translateY(15px);
+            transform: translateY(15px);
+        }
+
+        #lleo_dialog.lleo_show_small {
+            width: 150px !important;
+        }
+
+        #lleo_dialog.lleo_show {
+            opacity: 1 !important;
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+            transform: translateY(0);
+            -webkit-transition: -webkit-transform 0.3s, opacity 0.3s !important;
+            -moz-transition: -moz-transform 0.3s, opacity 0.3s !important;
+            -ms-transition: -ms-transform 0.3s, opacity 0.3s !important;
+            -o-transition: -o-transform 0.3s, opacity 0.3s !important;
+            transition: transform 0.3s, opacity 0.3s !important;
+        }
+
+        #lleo_dialog.lleo_collapse {
+            opacity: 0 !important;
+            -webkit-transform: scale(0.25, 0.1) translate(-550px, 100px);
+            -moz-transform: scale(0.25, 0.1) translate(-550px, 100px);
+            -ms-transform: scale(0.25, 0.1) translate(-550px, 100px);
+            -o-transform: scale(0.25, 0.1) translate(-550px, 100px);
+            transform: scale(0.25, 0.1) translate(-550px, 100px);
+            -webkit-transition: -webkit-transform 0.4s, opacity 0.4s !important;
+            -moz-transition: -moz-transform 0.4s, opacity 0.4s !important;
+            -ms-transition: -ms-transform 0.4s, opacity 0.4s !important;
+            -o-transition: -o-transform 0.4s, opacity 0.4s !important;
+            transition: transform 0.4s, opacity 0.4s !important;
+        }
+
+        #lleo_dialog input::-webkit-input-placeholder {
+            color: #aaa !important;
+        }
+
+        #lleo_dialog .lleo_has_pic #lleo_word {
+            margin-right: 80px !important;
+        }
+
+        #lleo_dialog #lleo_translationsContainer1 {
+            position: relative !important;
+        }
+
+        #lleo_dialog #lleo_translationsContainer2 {
+            padding: 7px 0 0 !important;
+            vertical-align: middle !important;
+        }
+
+        #lleo_dialog #lleo_word {
+            color: #000 !important;
+            margin: 0 5px 2px 0 !important;
+            /*float: left !important;*/
+        }
+
+        #lleo_dialog .lleo_has_sound #lleo_word {
+            margin-left: 30px !important;
+        }
+
+        #lleo_dialog #lleo_text {
+            font-weight: bold !important;
+            color: #d56e00 !important;
+            text-decoration: none !important;
+            cursor: default !important;
+        }
+
+        /*
+        #lleo_dialog #lleo_text.lleo_known {
+            cursor: pointer !important;
+            text-decoration: underline !important;
+        }
+        */
+        /*#lleo_dialog #lleo_closeBtn {
+            position: absolute !important;
+            right: 6px !important;
+            top: 5px !important;
+            line-height: 1px !important;
+            text-decoration: none !important;
+            font-weight: bold !important;
+            font-size: 0 !important;
+            color: #aaa !important;
+            display: block !important;
+            z-index: 9999999999 !important;
+            width: 7px !important;
+            height: 7px !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }*/
+
+        #lleo_dialog #lleo_optionsBtn {
+            position: absolute !important;
+            right: 3px !important;
+            top: 5px !important;
+            line-height: 1px !important;
+            text-decoration: none !important;
+            font-weight: bold !important;
+            font-size: 13px !important;
+            color: #aaa !important;
+            padding: 2px !important;
+            display: none;
+        }
+
+        #lleo_dialog.lleo_optionsShown #lleo_optionsBtn {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_optionsBtn img {
+            width: 12px !important;
+            height: 12px !important;
+        }
+
+        #lleo_dialog #lleo_sound {
+            float: left !important;
+            width: 16px !important;
+            height: 16px !important;
+            margin-left: 9px !important;
+            margin-right: 3px !important;
+            background: 0 0 no-repeat !important;
+            cursor: pointer !important;
+            display: none !important;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNq0U01IVFEU/u57Oo5WhBRIBBptykWLYBa2soWiEKQQEbrSFsGbVRQKQc2iFqGitXqvjQxCoCJCqyI0aBUtZILaJNUuYWYWo8HovJ/707nP94bnz0rxwvfOuefd8517fi5TSuE4i50YwZ3l37ZhNlpgzFkaaM/G9sHF1YskNrT+7l4PjMOcb78t2JL71uxgB+2UlfxHTtq5N94fIOh/88kWgWfl73ZCSQkpeGg3H091JY6dI2S00qA/N3KO3dDUYhFgEmZGurG+w9FqApIHsVM7kaTF9Nhn0r8Q7hPWQgIRuNaH3AMUA4W/Lkdh04cpFS43G0TgxQTvCdMETVAk3KynIHwXZU/ge8XDt7KH9bKLjU0P2zVO5LsEpSejVRJ9UR18EtfqKegovs9R3Q6w9c/H1o4Aa2Jwm1lIvn9RJ4w9RdRRzqcYrpwycCll4Cy1lnkS3Bc6vfBg28v8aRIfI78zhB/1GygROH3jLyyzMQ0zlUZuZBSlKkeLoegGtTjYLcJ8pF+NakHOFC2J6w+f25mxSfWrWFF/ShXVPTGvtN14NNkVnxlYWJkgZEL7/vwKr55lKSVnaGYWkuYgrgG172uUv47+U7fw0EHaJXmalUQy/HqO6lBzEsVjJC4Q8kd6TETQpjuaGOvjv8b/AgwA/ij1XMx58NIAAAAASUVORK5CYII=) !important;
+        }
+
+        #lleo_dialog .lleo_has_sound #lleo_sound {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_soundWave {
+            border: solid 5px #4495CC !important;
+            border-radius: 5px !important;
+            position: absolute !important;
+            left: -5px !important;
+            top: -5px !important;
+            right: -5px !important;
+            bottom: -5px !important;
+            z-index: 0 !important;
+            opacity: 0.9 !important;
+            display: none !important;
+        }
+
+        #lleo_dialog #lleo_soundWave.lleo_beforePlaying {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_soundWave.lleo_playing {
+            opacity: 0 !important;
+            border-width: 20px !important;
+            border-radius: 30px !important;
+
+            -webkit-transform: scale(1.07, 1.1) !important;
+            -moz-transform: scale(1.07, 1.1) !important;
+            -ms-transform: scale(1.07, 1.1) !important;
+            transform: scale(1.07, 1.1) !important;
+
+            -webkit-transition: all 0.6s !important;
+            -moz-transition: all 0.6s !important;
+            -ms-transition: all 0.6s !important;
+            transition: all 0.6s !important;
+        }
+
+        #lleo_dialog #lleo_picOuter {
+            position: absolute !important;
+            float: right !important;
+            top: 4px;
+            right: 5px;
+            z-index: 9 !important;
+            display: none !important;
+            width: 100px !important;
+        }
+
+        #lleo_dialog.lleo_optionsShown #lleo_picOuter {
+            right: 25px;
+        }
+
+        #lleo_dialog .lleo_has_pic #lleo_picOuter {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_picOuter:hover {
+            width: auto !important;
+            z-index: 11 !important;
+        }
+
+        #lleo_dialog #lleo_pic,
+        #lleo_dialog #lleo_picBig {
+            position: absolute !important;
+            top: 0 !important;
+            right: 0 !important;
+            border: solid 2px #fff !important;
+            -webkit-border-radius: 2px !important;
+            -moz-border-radius: 2px !important;
+            border-radius: 2px !important;
+            z-index: 1 !important;
+        }
+
+        #lleo_dialog #lleo_pic {
+            position: relative !important;
+            border: none !important;
+            width: 30px !important;
+        }
+
+        #lleo_dialog #lleo_picBig {
+            box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.3);
+            z-index: 2 !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+        }
+
+        #lleo_dialog #lleo_picOuter:hover #lleo_picBig {
+            visibility: visible !important;
+            opacity: 1 !important;
+            -webkit-transition: opacity 0.3s !important;
+            -webkit-transition-delay: 0.3s !important;
+        }
+
+        #lleo_dialog #lleo_transcription {
+            margin: 0 80px 4px 31px !important;
+            color: #aaaaaa !important;
+        }
+
+        #lleo_dialog .lleo_no_trans {
+            color: #aaa !important;
+        }
+
+        #lleo_dialog .ll-translation-counter {
+            float: right !important;
+            font-size: 11px !important;
+            color: #aaa !important;
+            padding: 2px 2px 1px 10px !important;
+        }
+
+        #lleo_dialog .ll-translation-text {
+            float: left !important;
+            /*width: 80% !important;*/
+        }
+
+        #lleo_dialog #lleo_trans a {
+            color: #3F669F !important;
+            text-decoration: none !important;
+            text-overflow: ellipsis !important;
+            padding: 1px 4px !important;
+            overflow: hidden !important;
+            float: left !important;
+            width: 320px !important;
+        }
+
+        #lleo_dialog .ll-translation-item {
+            color: #3F669F !important;
+            border: solid 1px #fff !important;
+            padding: 3px !important;
+            width: 100% !important;
+            float: left !important;
+            -moz-border-radius: 2px !important;
+            -webkit-border-radius: 2px !important;
+            border-radius: 2px !important;
+        }
+
+        #lleo_dialog .ll-translation-item:hover {
+            border: solid 1px #9FC2C9 !important;
+            background: #EDF4F6 !important;
+            cursor: pointer !important;
+        }
+
+        #lleo_dialog .ll-translation-item:hover .ll-translation-counter {
+            color: #83a0a6 !important;
+        }
+
+        #lleo_dialog .ll-translation-marker {
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAWSURBVBhXY7RPm/+fAQkwIXNAbMICAJQ8AkvqWg/SAAAAAElFTkSuQmCC) !important;
+            display: inline-block !important;
+            width: 4px !important;
+            height: 4px !important;
+            margin: 7px 5px 2px 2px !important;
+            float: left !important;
+        }
+
+        #lleo_dialog #lleo_icons {
+            color: #aaa !important;
+            font-size: 11px !important;
+            background: #f8f8f8 !important;
+            padding: 10px 10px 10px 16px !important;
+        }
+
+        #lleo_icons a {
+            display: inline-block !important;
+            width: 16px !important;
+            height: 16px !important;
+            margin: 0 10px -4px 3px !important;
+            text-decoration: none !important;
+            opacity: 0.5 !important;
+            background: url(data:image/png;base64,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) !important;
+        }
+
+        #lleo_icons a:hover {
+            opacity: 1 !important;
+        }
+
+        #lleo_icons a.lleo_google {
+            background-position: -34px 0 !important;
+        }
+
+        #lleo_icons a.lleo_multitran {
+            background-position: -64px 0 !important;
+        }
+
+        #lleo_icons a.lleo_lingvo {
+            background-position: -51px 0 !important;
+            width: 12px !important;
+        }
+
+        #lleo_icons a.lleo_dict {
+            background-position: -17px 0 !important;
+        }
+
+        #lleo_icons a.lleo_linguee {
+            background-position: -81px 0 !important;
+        }
+
+        #lleo_icons a.lleo_michaelis {
+            background-position: -98px 0 !important;
+        }
+
+        #lleo_dialog #lleo_contextContainer {
+            margin: 0 !important;
+            padding: 3px 15px 8px 10px !important;
+            background: #eee !important;
+            background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)) !important;
+            background: -moz-linear-gradient(-90deg, #fff, #eee) !important;
+            border-bottom: solid 1px #ddd !important;
+            border-top-left-radius: 3px !important;
+            border-top-right-radius: 3px !important;
+            display: none !important;
+            overflow: hidden !important;
+        }
+
+        #lleo_dialog .lleo_has_context #lleo_contextContainer {
+            display: block !important;
+        }
+
+        #lleo_dialog #lleo_context {
+            color: #444 !important;
+            text-shadow: 1px 1px 0 #f4f4f4 !important;
+            line-height: 12px !important;
+            font-size: 11px !important;
+            margin-left: 2px !important;
+        }
+
+        #lleo_dialog #lleo_context b {
+            line-height: 12px !important;
+            color: #000 !important;
+            font-weight: bold !important;
+            font-size: 11px !important;
+        }
+
+        #lleo_dialog #lleo_translateContextLink {
+            color: #444 !important;
+            text-shadow: 1px 1px 0 #f4f4f4 !important;
+            background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#ddd)) !important;
+            background: -moz-linear-gradient(-90deg, #f4f4f4, #ddd) !important;
+            border: solid 1px !important;
+            box-shadow: 1px 1px 0 #f6f6f6 !important;
+            border-color: #999 #aaa #aaa #999 !important;
+            -moz-border-radius: 2px !important;
+            -webkit-border-radius: 2px !important;
+            border-radius: 2px !important;
+            padding: 0 3px !important;
+            font-size: 11px !important;
+            text-decoration: none !important;
+            margin: 1px 5px 0 !important;
+            display: inline-block !important;
+            white-space: nowrap !important;
+        }
+
+        #lleo_dialog #lleo_translateContextLink:hover {
+            background: #f8f8f8 !important;
+        }
+
+        #lleo_dialog #lleo_translateContextLink.hidden {
+            visibility: hidden !important;
+        }
+
+        #lleo_dialog #lleo_setTransForm {
+            display: block !important;
+            margin-top: 3px !important;
+            padding-top: 5px !important;
+            /* Set position and background because the form might be overlapped by an image when no translations */
+            position: relative !important;
+            background: #fff !important;
+            z-index: 10 !important;
+            padding-bottom: 10px !important;
+            padding-left: 16px !important;
+        }
+
+        #lleo_dialog .lleo-custom-translation {
+            padding: 4px 5px !important;
+            border: solid 1px #ddd !important;
+            border-radius: 2px !important;
+            width: 90% !important;
+            min-width: 270px !important;
+            background: -webkit-gradient(linear, 0 0, 0 20, from(#f1f1f1), to(#fff)) !important;
+            background: -moz-linear-gradient(-90deg, #f1f1f1, #fff) !important;
+            font: normal 13px Arial, Helvetica !important;
+            line-height: 15px !important;
+        }
+
+        #lleo_dialog .lleo-custom-translation:hover {
+            border: solid 1px #aaa !important;
+        }
+
+        #lleo_dialog .lleo-custom-translation:focus {
+            background: #FFFEC9 !important;
+        }
+
+        #lleo_dialog *.hidden {
+            display: none !important;
+        }
+
+        #lleo_dialog .infinitive {
+            color: #D56E00 !important;
+            text-decoration: none;
+            border-bottom: 1px dotted #D56E00 !important;
+        }
+
+        #lleo_dialog .infinitive:hover {
+            border: none !important;
+        }
+
+        #lleo_dialog .lleo_separator {
+            height: 1px !important;
+            background: #eee;
+            margin-top: 10px !important;
+            background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, #eee 8%, rgba(255, 255, 255, 1) 80%) !important;
+            background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, #eee 8%, rgba(255, 255, 255, 1) 80%) !important;
+            background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, #eee 8%, rgba(255, 255, 255, 1) 80%) !important;
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, #eee 8%, rgba(255, 255, 255, 1) 80%) !important;
+        }
+
+        #lleo_dialog #lleo_trans {
+            /*border-top: 1px solid #eeeeee !important;*/
+            padding: 5px 30px 0 14px !important;
+            zoom: 1;
+        }
+
+        #lleo_dialog .lleo_clearfix {
+            display: block !important;
+            clear: both !important;
+            visibility: hidden !important;
+            height: 0 !important;
+            font-size: 0 !important;
+        }
+
+        #lleo_dialog #lleo_picOuter table {
+            width: 44px !important;
+            position: absolute !important;
+            right: 0 !important;
+            top: 0 !important;
+            vertical-align: middle !important;
+        }
+
+        #lleo_dialog #lleo_picOuter td {
+            width: 38px !important;
+            height: 38px !important;
+            /*border: 1px solid #eeeeee !important;*/
+            vertical-align: middle !important;
+            text-align: center !important;
+        }
+
+        #lleo_dialog #lleo_picOuter td div {
+            height: 38px !important;
+            overflow: hidden !important;
+        }
+
+        #lleo_dialog .lleo_empty {
+            margin: 0 5px 7px !important;
+        }
+
+        #lleo_youtubeExportBtn {
+            margin-left: 10px;
+            height: 24px;
+        }
+
+        #lleo_youtubeExportBtn i {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: 0 0 url(https://d144fqpiyasmrr.cloudfront.net/plugins/all/images/i16.png) !important;
+        }
+
+        #lleo_youtubeExportBtn .yt-uix-button-content {
+            font-size: 12px;
+            line-height: 2px;
+        }
+
+        /*** Parsed Lyrics Content *****************************/
+
+        .lleo_lyrics tran {
+            background: transparent !important;
+            border-radius: 2px !important;
+            text-shadow: none !important;
+            cursor: pointer !important;
+        }
+
+        .lleo_lyrics tran:hover {
+            color: #fff !important;
+            background: #C77213 !important;
+            -webkit-transition: all 0.1s !important;
+            -moz-transition: all 0.1s !important;
+            -ms-transition: all 0.1s !important;
+            -o-transition: all 0.1s !important;
+            transition: all 0.1s !important;
+        }
+
+        .lleo_songName {
+            border: solid 1px #ffd47c;
+            background: #fff1c2;
+            border-radius: 2px;
+        }
+
+        .lleo_hidden_iframe {
+            visibility: hidden;
+        }</style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="responsive  en_US " data-gr-c-s-loaded="true" cz-shortcut-listen="true"
+      style="overflow: auto; height: auto;">
+<div id="app">
+    <div id="layout-view" data-view-cid="view14">
+        <div id="sticky-footer-wrap" data-layout-cid="view14" class="db-layout">
+            <div id="dealBuilder" data-view-cid="view27">
+                <header><a title="DEAL BUILDER"></a></header>
+                <section id="cont-build">
+                    <nav id="steps">
+                        <div id="steps" data-view-cid="view15">
+                            <div data-view-name="chooseService" data-view-cid="view57" data-model-cid="c58">
+                                <div id="chooseService" class="  accordion-group  accordion  open   ">
+                                    <div class="accordion-heading  "><a href="#"> 1. Choose Service &amp; Price </a>
+                                    </div>
+                                    <div class="accordion-body">
+                                        <form>
+                                            <fieldset>
+                                                <div class="fill">
+                                                    <div data-view-name="chooseServiceService" data-view-cid="view60"
+                                                         data-model-cid="c2"><label class="form-label"> Select a service
+                                                        to promote </label>
+                                                        <div class="custom-select full"><select name="service"
+                                                                                                class="serviceSelect">
+                                                            <option data-id="58e28b14-c81f-46ac-bfea-1a2a2f201aa0"
+                                                                    value="58e28b14-c81f-46ac-bfea-1a2a2f201aa0">
+                                                                General Spend
+                                                            </option>
+                                                        </select></div>
+                                                    </div>
+                                                </div>
+                                                <div data-view-name="chooseServiceOptionTypes" data-view-cid="view70"
+                                                     data-model-cid="c3"></div>
+                                                <div class="fill deal-regular-price">
+                                                    <div><label class="form-label">What do your
+                                                        customers normally pay for this product or service? <span
+                                                                class="help-icon">    <a class="tipsy"
+                                                                                         original-title="This value must be consistent with prices available on your website or price list. You may be asked to provide written proof of pricing."></a>  </span></label>
+                                                        <div class="regular-price-wrap"><input
+                                                                class="regularPrice small error" type="text"
+                                                                placeholder="0" name="value" value=""></div>
+                                                        <p class="error-text too-small" style="display: none;">Value
+                                                            must be $2 or more</p>
+                                                        <p class="error-text too-large" style="display: none;">Value
+                                                            cannot exceed $999</p>
+                                                        <p class="error-text bad-range" style="display: none;">Value
+                                                            must be whole dollars from $2 to $999</p>
+                                                        <!-- TODO: Style me -->
+                                                        <div class="loading-discount" style="display: none;"><span>Calculating your discount</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset class="discount-percentages">
+                                                <div class="fill deal-regular-price">
+                                                    <div>
+                                                        <label class="form-label">Enter discount?</label>
+                                                        <div class="regular-price-wrap">
+                                                            <input class="discountAmount small error" type="text"
+                                                                   placeholder="0" name="value" value="">
+                                                        </div>
+                                                        <p class="error-text too-small" style="display: none;">Value
+                                                            must be 2% or more</p>
+                                                        <p class="error-text too-large" style="display: none;">Value
+                                                            cannot exceed 99%</p>
+                                                        <p class="error-text bad-range" style="display: none;">Value
+                                                            must be whole dollars from 2% to 99%</p>
+                                                        <!-- TODO: Style me -->
+                                                        <div class="loading-discount" style="display: none;"><span>Calculating your discount</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-view-name="chooseServiceDetails" data-view-cid="view68"
+                                                     data-model-cid="c5">
+                                                    <div class="details-discount">
+                                                        <div class="box">
+                                                            <div class="box-item"><span
+                                                                    class="title">Customer Pays</span> $50.00
+                                                            </div>
+                                                            <div class="box-item"><span class="title">        You Receive        <span
+                                                                    class="help-icon">          <a class="tipsy"
+                                                                                                   original-title="This is the amount you’ll receive from each sale after deducting the marketing fee for promoting your offer."></a>        </span>      </span>
+                                                                $25.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset><a class="show-dealpreview-mobile"
+                                                         data-modal-id="deal-preview-modal"></a>
+                                                <button type="submit" class="btn btn-buy" disabled="disabled">CONTINUE
+                                                </button>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-view-name="dealImage" data-view-cid="view72" data-model-cid="c73">
+                                <div id="dealImage" class="  accordion-group  accordion  closed   ">
+                                    <div class="accordion-heading  "><a href=""> 2. Select Deal Image </a></div>
+                                    <div class="accordion-body">
+                                        <form>
+                                            <fieldset><label class="form-label">Upload your own image or choose one
+                                                below:</label>
+                                                <div class="thumbnails">
+                                                    <ul class="slides">
+                                                        <li class="thumb  "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/deal/8RHBimta8v2HgtG9YbQZ/t300x182/Bn-2048x1242.jpg"
+                                                                id="64a15328-2086-479a-b54c-5aeac89c8546"></span></li>
+                                                        <li class="thumb  "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/deal/wLefEfYd8Zn8ZSKYx4wi/t300x182/s3-2048x1242.jpg"
+                                                                id="96b3063f-2e47-4968-8d35-d99c8f09e3a1"></span></li>
+                                                        <li class="thumb  "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/deal/pGNm7AZ7WhWegU8U9FYB/t300x182/HQ-2048x1242.jpg"
+                                                                id="ea697fbd-a79d-4dde-b809-05f4a893e669"></span></li>
+                                                        <li class="thumb  "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/deal/jVAYxUAe3dAJb4BvrBWq/t300x182/6c-2048x1242.jpg"
+                                                                id="31aa3c68-e4f9-41db-b162-ef91d838cc88"></span></li>
+                                                        <li class="thumb  "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/deal/kiGWcVEhpRAzRPbJEVeh/t300x182/RD-2048x1242.jpg"
+                                                                id="a2968c36-be2b-4b5c-b318-38bf622efaae"></span></li>
+                                                        <li class="thumb  "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/deal/bhm6sExxe1BhLsW3GsR8/t300x182/r5-2048x1242.jpg"
+                                                                id="9e3b3ca7-fc0a-42fa-a475-eae18c022f4a"></span></li>
+                                                        <li class="thumb  "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/deal/bWzvBJ5iYG5MoiK2VK2q/t300x182/AA-2048x1242.jpg"
+                                                                id="9dc89ecf-c2a2-4e95-a8cb-192bd57c4e89"></span></li>
+                                                        <li class="thumb  "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/deal/3LpoAYPcYqbwJ7yAybrw/t300x182/fS-2048x1242.jpg"
+                                                                id="3725075e-ea6b-4870-b300-0388155fef95"></span></li>
+                                                        <li class="thumb selected "><span class="thumb-container"><img
+                                                                src="http://img.grouponcdn.com/msse/24e8u1eFsD2J5hs8yAzS5KhJjSgG/24-960x720.jpg"
+                                                                id="92f0ccde-1951-11e7-98f4-52540a1457c8"></span> <span
+                                                                class="remove"
+                                                                data-image-id="92f0ccde-1951-11e7-98f4-52540a1457c8"></span>
+                                                        </li>
+                                                        <li class="upload"><span>+</span>Upload</li>
+                                                    </ul>
+                                                    <input type="file" id="upload-input-file"></div>
+                                                <p>Images that do not meet Groupon's <a href="javascript:void(0)"
+                                                                                        class="guidelines">guidelines</a>
+                                                    will be replaced with an image from our stock library.</p>
+                                            </fieldset>
+                                            <fieldset><a class="show-dealpreview-mobile"
+                                                         data-modal-id="deal-preview-modal"
+                                                         href="javascript:void(0)"></a>
+                                                <button type="submit" class="btn btn-buy">CONTINUE</button>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-view-name="nutshell" data-view-cid="view75">
+                                <div id="nutshell" class="  accordion-group  accordion  closed   ">
+                                    <div class="accordion-heading  "><a href="#"> 3. In a Nutshell </a></div>
+                                    <div class="accordion-body">
+                                        <form>
+                                            <fieldset><p class="form-label" id="recommended-nutshell-description"
+                                                         style="display: none;"> We came up with a generic description
+                                                of your business. You can use this or enter one of your own. <span>                        <a
+                                                        href="javascript:void(0)"
+                                                        data-modal-id="more-examples-nutshell">Need help?</a>          </span>
+                                            </p>
+                                                <p class="form-label" id="non-recommended-nutshell-description">
+                                                    Describe your business in 115 characters.<br> For example: <span>            Neighborhood Italian eatery with a menu based on four generations of family recipes            <a
+                                                        href="javascript:void(0)"
+                                                        data-modal-id="more-examples-nutshell">Need help?</a>          </span>
+                                                </p>                <textarea name="nutshellText" id="nutshellText"
+                                                                              rows="4">mnbmnbmnbmnbmnbmn</textarea><span
+                                                        class="character-count">98 characters remaining</span>
+                                                <p class="error-text bad-range">Profanity check. Clean it up potty
+                                                    mouth.</p></fieldset>
+                                            <fieldset><a class="show-dealpreview-mobile"
+                                                         data-modal-id="deal-preview-modal"
+                                                         href="javascript:void(0)"></a>
+                                                <button type="submit" class="btn btn-buy">CONTINUE</button>
+                                                <p class="text-addition">*Please note: our editorial staff may review
+                                                    the content you submit and adjust it before your deal goes live.</p>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-view-name="questionnaire" data-view-cid="view76">
+                                <div id="questionnaire" class="  accordion-group  accordion  closed   ">
+                                    <div class="accordion-heading  "><a href="#"> 4. About Your Business </a></div>
+                                    <div class="accordion-body">
+                                        <form>
+                                            <fieldset><p class="form-label">Our customers want to know more about you!
+                                                Scroll through and answer the following questions.</p>
+                                                <div class="flexslider">
+                                                    <div class="slider">
+                                                        <div style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"
+                                                             class="flex-active-slide"><label class="carousel-label">What
+                                                            makes your business stand out from the competition? <span
+                                                                    class="required"> (Required)</span></label>
+                                                            <textarea name="" class="standout" rows="5"></textarea><span
+                                                                    class="question-num">1 of 4</span><span
+                                                                    class="character-count">272 characters remaining</span>
+                                                            <div class="question-inner">
+                                                                <button type="submit"
+                                                                        class="btn flat-btn next"></button>
+                                                                <button type="submit"
+                                                                        class="btn flat-btn prev"></button>
+                                                            </div>
+                                                            <p class="error-text bad-range" style="display: none;">
+                                                                Profanity check. Clean it up potty mouth.</p></div>
+                                                        <div style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+                                                            <label class="carousel-label">What was the inspiration to
+                                                                start or run this business? </label> <textarea name=""
+                                                                                                               class="standout"
+                                                                                                               rows="5"></textarea><span
+                                                                class="question-num">1 of 4</span><span
+                                                                class="character-count">278 characters remaining</span>
+                                                            <div class="question-inner">
+                                                                <button type="submit"
+                                                                        class="btn flat-btn next"></button>
+                                                                <button type="submit"
+                                                                        class="btn flat-btn prev"></button>
+                                                            </div>
+                                                            <p class="error-text bad-range" style="display: none;">
+                                                                Profanity check. Clean it up potty mouth.</p></div>
+                                                        <div style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+                                                            <label class="carousel-label">What do you love most about
+                                                                your job? </label> <textarea name="" class="standout"
+                                                                                             rows="5"></textarea><span
+                                                                class="question-num">1 of 4</span><span
+                                                                class="character-count">287 characters remaining</span>
+                                                            <div class="question-inner">
+                                                                <button type="submit"
+                                                                        class="btn flat-btn next"></button>
+                                                                <button type="submit"
+                                                                        class="btn flat-btn prev"></button>
+                                                            </div>
+                                                            <p class="error-text bad-range" style="display: none;">
+                                                                Profanity check. Clean it up potty mouth.</p></div>
+                                                        <div style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+                                                            <label class="carousel-label">What is the best feedback
+                                                                you’ve ever received from a customer? </label> <textarea
+                                                                name="" class="standout" rows="5"></textarea><span
+                                                                class="question-num">1 of 4</span><span
+                                                                class="character-count">286 characters remaining</span>
+                                                            <div class="question-inner">
+                                                                <button type="submit"
+                                                                        class="btn flat-btn next"></button>
+                                                                <button type="submit"
+                                                                        class="btn flat-btn prev"></button>
+                                                            </div>
+                                                            <p class="error-text bad-range" style="display: none;">
+                                                                Profanity check. Clean it up potty mouth.</p></div>
+                                                    </div>
+                                                    <ol class="flex-control-nav flex-control-paging">
+                                                        <li><a class="flex-active">1</a></li>
+                                                        <li><a>2</a></li>
+                                                        <li><a>3</a></li>
+                                                        <li><a>4</a></li>
+                                                    </ol>
+                                                    <ul class="flex-direction-nav">
+                                                        <li><a class="flex-prev" href="#">Previous</a></li>
+                                                        <li><a class="flex-next" href="#">Next</a></li>
+                                                    </ul>
+                                                </div>
+                                            </fieldset>
+                                            <fieldset><a class="show-dealpreview-mobile"
+                                                         data-modal-id="deal-preview-modal"
+                                                         href="javascript:void(0)"></a>
+                                                <button type="submit" class="btn btn-buy continue">CONTINUE</button>
+                                                <p class="text-addition">Our editorial staff will review the content you
+                                                    submit and may adjust it before your deal goes live.</p></fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-view-name="finePrint" data-view-cid="view77">
+                                <div id="finePrint" class="  accordion-group  accordion  closed   ">
+                                    <div class="accordion-heading  "><a href="#"> 5. Set Your Fine Print </a></div>
+                                    <div class="accordion-body finePrint-options">
+                                        <fieldset>
+                                            <div id="fine-print-builder">
+                                                <div id="required" class="undefined"><label><h6>Required<span
+                                                        class="help-icon"> <a class="tipsy"
+                                                                              original-title="The required fine print for your offer has already been added and can’t be removed. Check the boxes to add additional fine print about your policies and how customers redeem vouchers."></a> </span>
+                                                </h6></label>
+                                                    <div class="fine-print-option-wrapper">
+                                                        <div class="fill"><span><input class="fine-print-checkbox"
+                                                                                       type="checkbox"
+                                                                                       disabled="disabled"
+                                                                                       checked="checked">Limit <span
+                                                                id="beedffb5-3c48-4a6b-9cc6-ade8ba995877-input1-s"
+                                                                class="container-clickable-input"><div href="#"
+                                                                                                       class="clickableInput null"
+                                                                                                       id="2339"
+                                                                                                       data-type="number"
+                                                                                                       data-original-title="input1"
+                                                                                                       data-showbuttons="false">1</div></span> per person, may buy  <span
+                                                                id="beedffb5-3c48-4a6b-9cc6-ade8ba995877-input2-s"
+                                                                class="container-clickable-input"><div href="#"
+                                                                                                       class="clickableInput null"
+                                                                                                       id="2341"
+                                                                                                       data-type="number"
+                                                                                                       data-original-title="input2"
+                                                                                                       data-showbuttons="false">1</div></span>  additional as  a gift.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="recommended" class="undefined"><label><h6>Optional</h6></label>
+                                                    <div class="fine-print-option-wrapper">
+                                                        <div class="fill"><span class="unselected"><input
+                                                                class="fine-print-checkbox" type="checkbox">Appointment required, <span
+                                                                id="98368c9a-53d3-48ed-8c6c-a86b4f9fa8ef-input1-s"
+                                                                class="container-clickable-input"><div href="#"
+                                                                                                       class="clickableInput null"
+                                                                                                       id="2345"
+                                                                                                       data-type="select"
+                                                                                                       data-original-title="input1"
+                                                                                                       data-showbuttons="false">same day appointments accepted</div></span>.</span>
+                                                        </div>
+                                                        <div class="fill"><span class="unselected"><input
+                                                                class="fine-print-checkbox" type="checkbox">Limit <span
+                                                                id="0555f517-ae60-4ed7-889a-6e2fc2be1cf5-input1-s"
+                                                                class="container-clickable-input"><div href="#"
+                                                                                                       class="clickableInput null"
+                                                                                                       id="2349"
+                                                                                                       data-type="number"
+                                                                                                       data-original-title="input1"
+                                                                                                       data-showbuttons="false">1</div></span> per visit.</span>
+                                                        </div>
+                                                        <div class="fill"><span class="unselected"><input
+                                                                class="fine-print-checkbox" type="checkbox">Appointment required.</span>
+                                                        </div>
+                                                        <div class="fill"><span class="unselected"><input
+                                                                class="fine-print-checkbox" type="checkbox">Valid only for option purchased.</span>
+                                                        </div>
+                                                        <div class="fill"><span><input class="fine-print-checkbox"
+                                                                                       type="checkbox"
+                                                                                       checked="checked">All goods or services must be used by the same person.</span>
+                                                        </div>
+                                                        <div class="fill"><span><input class="fine-print-checkbox"
+                                                                                       type="checkbox"
+                                                                                       checked="checked">Merchant's standard cancellation policy applies (any fees not to exceed Groupon price).</span>
+                                                        </div>
+                                                        <div class="fill"><span><input class="fine-print-checkbox"
+                                                                                       type="checkbox"
+                                                                                       checked="checked">Must sign waiver.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="error-text">The highlighted information appears to be invalid.</p>
+                                        </fieldset>
+                                        <fieldset><a class="show-dealpreview-mobile" data-modal-id="deal-preview-modal"
+                                                     href="javascript:void(0)"></a>
+                                            <button type="submit" class="btn btn-buy">CONTINUE</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-view-name="location" data-view-cid="view78" data-model-cid="c8">
+                                <div id="location" class="accordion-group  accordion  closed">
+                                    <div class="accordion-heading  "><a href="#"> 6. Redemption Location </a></div>
+                                    <div class="accordion-body" style="display: none;">
+                                        <form>
+                                            <fieldset id="rg-redemption-location">
+                                                <div data-view-name="locations" data-view-cid="view81"
+                                                     data-model-cid="c7">
+                                                    <div class="businessAddress">
+                                                        <div class="flexslider">
+                                                            <div class="slider"><span class="form-label">Review your business location(s) where customers may redeem their vouchers.</span>
+                                                                <label> <input name="location-or-area" type="radio"
+                                                                               value="locations" checked="checked"> At
+                                                                    My Business Addresses </label>
+                                                                <div style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"
+                                                                     class="flex-active-slide">
+                                                                    <div class="rg-location"><input
+                                                                            value="02d1ce32-063d-11e6-b18c-52540a1457c8"
+                                                                            type="checkbox"
+                                                                            name="location-02d1ce32-063d-11e6-b18c-52540a1457c8"
+                                                                            checked="" disabled=""> <span>                    <p>kiev</p>                    <p>kiev, AK 43534</p>                    <p>(932) 459-2385</p>                  </span>
+                                                                        <a class="edit" href="#"
+                                                                           data-uuid="02d1ce32-063d-11e6-b18c-52540a1457c8">
+                                                                            <span class="icon-pencil"></span> </a></div>
+                                                                </div>
+                                                            </div>
+                                                            <ol class="flex-control-nav flex-control-paging"></ol>
+                                                            <ul class="flex-direction-nav">
+                                                                <li><a class="flex-prev flex-disabled" href="#"
+                                                                       tabindex="-1">Previous</a></li>
+                                                                <li><a class="flex-next flex-disabled" href="#"
+                                                                       tabindex="-1">Next</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="#" class="flat-btn add">+ Add a new Location</a></div>
+                                                </div>
+                                                <div data-view-name="area" data-view-cid="view79" data-model-cid="c6"
+                                                     style="display: none;">
+                                                    <div class="serviceArea unselected"><label> <input
+                                                            name="location-or-area" type="radio" value="area"> I Will
+                                                        Travel </label>
+                                                        <div class="confirm-area">
+                                                            <div class="fill-group"><span>                  Within <span
+                                                                    class="miles">20</span>                  Miles of <span
+                                                                    class="zipcode">43534</span>                </span>
+                                                                <p class="error-text">The highlighted location
+                                                                    information appears to be invalid.</p></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-buy continue">CONTINUE</button>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-view-name="launchDate" data-view-cid="view85">
+                                <div id="launchDate" class="  accordion-group  accordion  closed   ">
+                                    <div class="accordion-heading  "><a href="#"> 7. Launch Date </a></div>
+                                    <div class="accordion-body">
+                                        <form>
+                                            <fieldset><p class="form-label"> Select a date for your deal to go live. To
+                                                provide time for Groupon to review your deal, the first available date
+                                                is a few business days from today. </p>
+                                                <ul>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">11</span> <span
+                                                            class="weekday">Tue</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">12</span> <span
+                                                            class="weekday">Wed</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">13</span> <span
+                                                            class="weekday">Thu</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">14</span> <span
+                                                            class="weekday">Fri</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">15</span> <span
+                                                            class="weekday">Sat</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">16</span> <span
+                                                            class="weekday">Sun</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">17</span> <span
+                                                            class="weekday">Mon</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">18</span> <span
+                                                            class="weekday">Tue</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">19</span> <span
+                                                            class="weekday">Wed</span> </label></li>
+                                                    <li><input class="date selected" name="date" type="radio"> <label>
+                                                        <span class="month">APR</span> <span class="day">20</span> <span
+                                                            class="weekday">Thu</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">21</span> <span
+                                                            class="weekday">Fri</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">22</span> <span
+                                                            class="weekday">Sat</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">23</span> <span
+                                                            class="weekday">Sun</span> </label></li>
+                                                    <li><input class="date" name="date" type="radio"> <label> <span
+                                                            class="month">APR</span> <span class="day">24</span> <span
+                                                            class="weekday">Mon</span> </label></li>
+                                                </ul>
+                                            </fieldset>
+                                            <fieldset><a class="show-dealpreview-mobile"
+                                                         data-modal-id="deal-preview-modal"
+                                                         href="javascript:void(0)"></a>
+                                                <button type="submit" class="btn btn-buy">CONTINUE</button>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-view-name="agreement" data-view-cid="view86" data-model-cid="c87">
+                                <div id="agreement" class="  accordion-group  accordion  closed    ">
+                                    <div class="accordion-heading  "><a href="#"> 8. Sign Agreement </a></div>
+                                    <div class="accordion-body sign-inner">
+                                        <form>
+                                            <fieldset><label> I am a duly authorized representative of Merchant and my
+                                                signature binds Merchant to this Agreement including the <a
+                                                        id="merchant-tc-link"
+                                                        href="https://www.grouponworks.com/merchant-terms-and-conditions"
+                                                        target="_blank">Merchant Terms and Conditions</a> </label>
+                                            </fieldset>
+                                            <fieldset>
+                                                <div class="fill item"><label>Name</label> <input class="agreement"
+                                                                                                  type="text"
+                                                                                                  name="referenceName">
+                                                </div>
+                                                <div class="item"><label>Date</label> <span>04/04/17</span></div>
+                                                <p class="error-text">Please enter your name to sign the contract.</p>
+                                            </fieldset>
+                                            <fieldset>
+                                                <div class="actions">
+                                                    <ul>
+                                                        <li><a class="download tipsy" original-title="Download"
+                                                               href="/merchant/join/msse-api/v0/contracts/e7693a1c-1951-11e7-869b-002590e2cf06.pdf"
+                                                               target="_blank"></a></li>
+                                                        <li><a class="print tipsy"
+                                                               href="/merchant/join/msse-api/v0/contracts/e7693a1c-1951-11e7-869b-002590e2cf06.pdf"
+                                                               original-title="Print" target="_blank" media="print"></a>
+                                                        </li>
+                                                        <li><a class="mobile-contract tipsy" original-title="Contract"
+                                                               data-modal-id="contract-modal" href=""></a></li>
+                                                    </ul>
+                                                    <button type="submit" class="btn btn-buy btn-submit"
+                                                            disabled="disabled">SUBMIT
+                                                    </button>
+                                                </div>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="preview-contract-container ">
+                        <section class="dealPreview " style="top: 0px;">
+                            <div id="preview" data-view-cid="view16" data-model-cid="c17" style="margin-top: 0px;">
+                                <div class="dealPreview-inner"><span class="title-deal-preview"></span>
+                                    <h1>jsnjsdngjn</h1>
+                                    <p id="previewTitle" class="deal-subtitle" data-view-cid="view18"
+                                       data-model-cid="c19">$50 for $99 Worth of Mud Wraps — jsnjsdngjn</p>
+                                    <div class="inner-deal-left">
+                                        <div class="price-tag-inner"><span>          $50        </span>
+                                            <button class="btn-buy-big">BUY!</button>
+                                        </div>
+                                        <div id="deal_discount">
+                                            <dl class="deal_value">
+                                                <dt>VALUE</dt>
+                                                <dd>$99</dd>
+                                            </dl>
+                                            <dl class="deal_discount">
+                                                <dt>DISCOUNT</dt>
+                                                <dd>49%</dd>
+                                            </dl>
+                                            <dl class="deal_savings">
+                                                <dt>YOU SAVE</dt>
+                                                <dd>$49</dd>
+                                            </dl>
+                                        </div>
+                                        <div class="confirm-location "><h5>REDEMPTION LOCATION</h5><span>            <p>kiev              <br>              kiev, AK 43534              <br>              (932) 459-2385            </p>          </span>
+                                        </div>
+                                        <div class="deal-cap "><h5>QUANTITY AVAILABLE</h5>          <span><p>50 vouchers per month</p></span>
+                                        </div>
+                                    </div>
+                                    <div class="inner-deal-right">
+                                        <figure><img
+                                                src="http://img.grouponcdn.com/msse/24e8u1eFsD2J5hs8yAzS5KhJjSgG/24-960x720.jpg"
+                                                class="uploaded "></figure>
+                                        <div class="nutshell-preview closed"><h3>In a Nutshell </h3>
+                                            <div class="changedValue "> From the merchant: "mnbmnbmnbmnbmnbmn"</div>
+                                        </div>
+                                        <div class="fine-print "><h3>The Fine Print</h3>              <span>Limit 1 per person, may buy  1  additional as  a gift.</span>
+                                            <span>All goods or services must be used by the same person.</span> <span>Merchant's standard cancellation policy applies (any fees not to exceed Groupon price).</span>
+                                            <span>Must sign waiver.</span></div>
+                                    </div>
+                                    <section id="dealpreview-bottom-inner">
+                                        <article class="left-column">
+                                            <div class="questionnaire-content  "><h3>A Chat with
+                                                jsnjsdngjn</h3>
+                                                <div class="question "><h5>What makes your business stand out from the
+                                                    competition?</h5>
+                                                    <p>nbmnbmbmbmnbmnbsd sdf sf sdf</p></div>
+                                                <div class="question "><h5>What was the inspiration to start or run this
+                                                    business?</h5>
+                                                    <p>фівфівфівфівфвфівфвфів</p></div>
+                                                <div class="question "><h5>What do you love most about your job?</h5>
+                                                    <p>фівфівівфівфі</p></div>
+                                                <div class="question "><h5>What is the best feedback you’ve ever
+                                                    received from a customer?</h5>
+                                                    <p>фівфівфівфвфів</p></div>
+                                            </div>
+                                        </article>
+                                        <article class="right-column"></article>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="contract" data-view-name="agreement" data-view-cid="view23" data-model-cid="c13"
+                                 class="contract-wrapper overlay-visible" style="display: none; top: 1114.33px;">
+
+
+                            <meta charset="utf-8">
+
+
+                            <title>Contract</title>
+
+                            <div id="contract" class="rg-contract">
+                                <div class="contract-inner">
+                                    <div class="contract-body">
+                                        <div id="contract-overlay" data-view-cid="view24"><p> Please read the Agreement
+                                            below that includes our Merchant Terms and Conditions. Once you've
+                                            electronically signed the Agreement, you can download a copy.</p>
+                                            <button type="submit" class="btn-secondary">I understand</button>
+                                        </div>
+                                        <div class="paragraph-contract">
+                                            <span class="tab-agreement"></span>
+                                            <div class="cont-header">
+                                                <span class="contract-logo"></span>
+                                                <h1>
+                                                    Groupon Merchant Agreement
+                                                </h1>
+                                                <h2>
+                                                    Effective Date
+                                                    <time datetime="2017-04-04">04/04/2017</time>
+                                                </h2>
+                                            </div>
+                                            <div class="contract-agreement">
+                                                <strong><p class="highlight-description">This Groupon Merchant Agreement
+                                                    <strong>(“Agreement”)</strong> is entered into by:</p>
+                                                    <p class="highlight-description">
+                                                        GROUPON, INC. ("Groupon")<br>
+                                                        600 West Chicago Ave., Suite 620<br>
+                                                        Chicago, IL 60654
+                                                    </p>
+                                                    <p class="highlight-description">jsnjsdngjn<strong>&nbsp;("Merchant")</strong><br>kiev<br>kiev,
+                                                        AK 43534<br>US</p></strong>
+                                                <p>
+                                                    This Agreement is governed by the Merchant Terms and Conditions
+                                                    located at <a
+                                                        href="http://www.grouponworks.com/merchant-terms-and-conditions"
+                                                        target="_blank">http://www.grouponworks.com/merchant-terms-and-conditions</a>.
+                                                    Merchant wishes to sell its goods and/or services and issue vouchers
+                                                    <strong>("Vouchers")</strong> that can be purchased through
+                                                    Groupon’s service at <a title="Groupon"
+                                                                            href="http://www.groupon.com"
+                                                                            target="_blank">www.groupon.com</a> and its
+                                                    mobile applications <strong>(“Website”)</strong>, or through other
+                                                    platforms or distribution channels owned, controlled, or operated by
+                                                    Groupon, and redeemed for Merchant's goods and/or services. Groupon
+                                                    agrees to promote the Merchant Offering through its advertising and
+                                                    promotional services on behalf of Merchant. In consideration of the
+                                                    mutual covenants of the parties and other valuable consideration,
+                                                    the sufficiency and receipt of which are hereby acknowledged, the
+                                                    parties agree as follows:
+                                                </p>
+                                            </div>
+                                            <div class="contract-terms">
+                                                <h3>Deal Terms</h3>
+                                                <p><span
+                                                        class="highlight-description">Merchant Offering:</span><br><strong>$100
+                                                    for $200 Worth of Mud Wraps — jsnjsdngjn valued at $200.00</strong>
+                                                </p>
+                                                <p><span
+                                                        class="highlight-description">Maximum Number of Vouchers:</span><br><strong>Unlimited</strong>
+                                                </p>
+                                                <p><span class="highlight-description">Monthly Maximum Number of Vouchers:</span><br><strong>50</strong>
+                                                </p>
+                                                <p><span
+                                                        class="highlight-description">Full Offer Value:</span><br><strong>$200.00</strong>
+                                                </p>
+                                                <p><span class="highlight-description">Amount Paid:</span><br><strong>$100.00</strong>
+                                                </p>
+                                                <p><span
+                                                        class="highlight-description">Promotional Value:</span><br><strong>$100.00</strong>
+                                                </p>
+                                                <p><span class="highlight-description">Promotional Value Expiration Date:</span><br><strong>120
+                                                    days from the Purchase Date.</strong></p>
+                                                <p><span
+                                                        class="highlight-description">Remittance Amount:</span><br><strong>$50.00</strong>
+                                                </p>
+                                                <p><span class="highlight-description">Fine Print:</span><br><strong>Must
+                                                    sign waiver. Merchant's standard cancellation policy applies (any
+                                                    fees not to exceed Groupon price). Limit 1 per person, may buy 1
+                                                    additional as a gift. All goods or services must be used by the same
+                                                    person.</strong></p>
+                                            </div>
+                                            <div class="contract-business">
+                                                <h3>Business Information</h3>
+                                                <ul>
+                                                    <li>Merchant Legal Name: <strong>jsnjsdngjn</strong>
+                                                    </li>
+                                                    <li>Street Address: <strong>kiev</strong>
+                                                    </li>
+                                                    <li>City: <strong>kiev</strong>
+                                                    </li>
+                                                    <li>State: <strong>AK</strong>
+                                                    </li>
+                                                    <li>Zip/Postal Code: <strong>43534</strong>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="contract-redemption">
+                                                <h3>Payment on Redemption</h3>
+                                                <p>
+                                                    Groupon shall pay Merchant the Remittance Amount (less a service fee
+                                                    of 0.000% of the Amount Paid), which includes a credit card fee and
+                                                    a promotional allowance fee <strong>(“Net Remittance
+                                                    Amount”)</strong> for each Voucher that Merchant redeems and logs
+                                                    into its Merchant Center account (or other redemption process as
+                                                    pre-approved by Groupon). Such payments shall be made as follows:
+                                                    Vouchers recorded as redeemed from the 1st through the 15th will be
+                                                    paid on the 16th day (or the next business day), and Vouchers
+                                                    recorded as redeemed from the 16th to the last day of the month will
+                                                    be paid on the 1st of the following month (or the next business
+                                                    day). Groupon will withhold the Amount paid for any refund provided
+                                                    by Groupon to a Voucher purchaser, if any.
+                                                </p>
+                                            </div>
+                                            <div class="contract-signature">
+                                                <h3>Signature</h3>
+                                                <div class="signature">
+                                                    <p>Agreed and Accepted by</p>
+                                                    <div class="signature-name contract-signature-name"><span>
+
+                          </span></div>
+                                                    <p>
+                                                        <time datetime="2017-04-04 16:15:24 +0000">
+                                                            Date: Apr 04, 2017
+                                                        </time>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="prototype"></div>
+
+<script src="jquery-3.2.0.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
