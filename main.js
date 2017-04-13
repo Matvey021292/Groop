@@ -44,7 +44,42 @@ $(document).ready(function(){
 		}
         $(this).parents('.accordion-group').removeClass('closed').addClass('open');
 		return false;
-    })
+    });
+
+    //preload image
+    function readURL(input) {
+
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+        	$('.thumbnails .upload').before('<li class="thumb "><span class="thumb-container"><img src="http://img.grouponcdn.com/msse/24e8u1eFsD2J5hs8yAzS5KhJjSgG/24-960x720.jpg"></span><span class="remove"></span></li>');
+            $('.thumb').last().find('img').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+
+	$("#upload-input-file").change(function(){
+	    readURL(this);
+	});
+
+	$('.thumbnails .upload').click(function (e) {
+		$("#upload-input-file").click();
+	});
+
+	$('.slides').on('click', 'img', function(e) {
+		$('.thumb').removeClass('selected');
+		$(this).parents('.thumb').addClass('selected');
+		$('.uploaded').attr('src', $(this).attr('src'));
+	});
+	
+	$('.slides').on('click', '.remove', function(e) {
+		$(this).parent().remove();
+		$('.uploaded').attr('src',$('.slides').first().find('img').attr('src'))
+
+	});
 
 
 });
