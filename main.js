@@ -80,6 +80,49 @@ $(document).ready(function(){
 		$('.uploaded').attr('src',$('.slides').first().find('img').attr('src'))
 
 	});
+	// $('#nutshellText').keyup(function(e){
+	// 	$('.changedValue').html().find('#nutshellText').val()
+	// })
+	$('#nutshellText').keyup(function(e){
+	var str = $('#nutshellText').val();
+	 $('.changedValue').html(str);
+	});
+	// $('.accordion-body .question-inner .next').click(function(e){
+	// 	e.preventDefault();
+	// 	var str1 = $('.flex-active-slide .standout').val();
+	//  	var text = $('.questionnaire-content').append('<div class="question"><p></p></div>');
+	//  	$(text).html(str1)
+	// });
+	$('.accordion-body .question-inner .next').click(function(e){
+		e.preventDefault();
+		var parent = $('#questionnaire .slider');
+		var current_counter = parent.data('counter');
+		if(current_counter + 1 < parent.children().length) {
+			parent.children().removeClass('flex-active-slide');
+			parent.data('counter', current_counter + 1);
+			var new_active = parent.children()[parent.data('counter')];
+			$(new_active).addClass('flex-active-slide');
 
+		}
+	});
+	$('.accordion-body .question-inner .prev').click(function(e){
+		e.preventDefault();
+		var parent = $('#questionnaire .slider');
+		var current_counter = parent.data('counter');
+		if(current_counter < parent.children().length && current_counter !==0 ) {
+			parent.children().removeClass('flex-active-slide');
+			parent.data('counter', current_counter - 1);
+			var new_active = parent.children()[parent.data('counter')];
+			$(new_active).addClass('flex-active-slide');
+		}
+	});
+	$('.accordion-body .standout').keyup(function(e){
+		e.preventDefault();
+		var index = $(this).parents('.slider').data('counter');
+		var from = $('.accordion-body .standout')[index];
+		var text = $(from).val();
+		var target = $('.questionnaire-content').children('.question ')[index];
+		$(target).find('p').text(text);
 
+	});
 });

@@ -7067,3 +7067,11 @@ body {
 }
 
 /*# sourceMappingURL=deal_builder_styles-4704e3b048.css.map */
+
+#questionnaire .slider>div {
+    display: none;
+}
+
+#questionnaire .slider .flex-active-slide {
+    display: block;
+}
